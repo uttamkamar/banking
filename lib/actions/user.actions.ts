@@ -1,6 +1,6 @@
 'use server'
 
-export const signIn = async() =>{
+export const signIn = async(p0: { email: string; password: string }) =>{
     try {
         //Mutation / Database / Make Fetch
     } catch (error) {
